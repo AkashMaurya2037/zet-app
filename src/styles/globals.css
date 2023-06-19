@@ -1,0 +1,356 @@
+@import url("https://use.typekit.net/tcd8cwi.css");
+
+* {
+  margin: 0;
+  padding: 0;
+  font-family: Graphie, serif;
+  font-weight: 500;
+  font-size: 16px;
+}
+
+.navb {
+  background-color: rgb(255, 255, 255) !important;
+  display: flex !important;
+  height: 4rem !important;
+  -webkit-box-pack: justify !important;
+  justify-content: space-between !important;
+  padding: 0.5rem 6rem !important;
+  -webkit-box-align: center !important;
+  align-items: center !important;
+  border-bottom: 1px solid rgb(208, 215, 224) !important;
+}
+
+.navb__logo {
+  width: 85px;
+  height: auto;
+}
+
+.navb__tab {
+  display: flex;
+  -webkit-box-align: center;
+  align-items: center;
+}
+
+.tab__text {
+  display: flex;
+  -webkit-box-align: center;
+  align-items: center;
+  text-decoration: none;
+  padding: 0px 1rem;
+  height: 100%;
+  cursor: pointer;
+  font-size: 1.15rem;
+  font-weight: 500;
+  text-align: center;
+  color: rgb(89, 99, 121);
+}
+
+.navb__tab .current__tab {
+  color: rgb(32, 117, 240) !important;
+  display: flex;
+  -webkit-box-align: center;
+  align-items: center;
+  text-decoration: none;
+  padding: 0px 1rem;
+  height: 100%;
+  cursor: pointer;
+  font-size: 1rem;
+  font-weight: 500;
+  text-align: center;
+}
+
+.button-D {
+  background: rgb(32, 117, 240);
+  border: none;
+  color: rgb(255, 255, 255);
+  border-radius: 8px;
+  height: 34px;
+  font-size: 16px;
+  width: 134px;
+
+}
+
+.active {
+  text-align: center;
+  color: rgb(32, 117, 240);
+  display: flex;
+  -webkit-box-align: center;
+  align-items: center;
+  text-decoration: none;
+  padding: 0px 1rem;
+  height: 100%;
+  cursor: pointer;
+  font-size: 1.15rem;
+  font-weight: 500;
+}
+
+.navb__ul {
+  display: flex;
+  justify-content: center;
+  /* width: 100%; */
+  border: none;
+  align-items: center;
+  background: white;
+}
+
+.navbar-toggler {
+  border: none !important;
+
+}
+
+ul li {
+  margin-top: 9px;
+}
+
+.navb__link {
+  display: block;
+  margin: 0;
+  padding: 0;
+}
+
+@media (max-width: 1270px) {
+  .navb {
+    padding: 0.5rem 10rem !important;
+    height: 4rem !important;
+  }
+}
+
+@keyframes fadeInUp-hero {
+  from {
+    transform: translate3d(0, 40px, 0)
+  }
+
+  to {
+    transform: translate3d(0, 0, 0);
+    opacity: 1
+  }
+}
+
+@-webkit-keyframes fadeInUp-hero {
+  from {
+    transform: translate3d(0, 40px, 0)
+  }
+
+  to {
+    transform: translate3d(0, 0, 0);
+    opacity: 1
+  }
+}
+
+.animated-hero {
+  animation-duration: 1s;
+  animation-fill-mode: both;
+  -webkit-animation-duration: 1s;
+  -webkit-animation-fill-mode: both
+}
+
+.animatedFadeInUp-hero {
+  opacity: 0
+}
+
+.fadeInUp-hero {
+  opacity: 0;
+  animation-name: fadeInUp-hero;
+  -webkit-animation-name: fadeInUp-hero;
+}
+
+.hero-Ani-Con {
+  width: auto;
+  padding: 0.5rem 12rem;
+  -webkit-box-align: center;
+  align-items: center;
+}
+
+.fadeInUp-hero__Main-Con {
+  background-color: rgb(233, 244, 255);
+  margin: 6vw 0vw 4vw;
+  border-radius: 4px;
+  display: flex;
+}
+
+.fadeInUp-hero__Main-Con .FirstCon {
+  padding: 4vw;
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  -webkit-box-pack: center;
+  justify-content: center;
+}
+
+.FirstCon h1 {
+  font-size: 40px;
+  font-weight: 900;
+  line-height: 52px;
+  margin-bottom: 12px;
+  color: black;
+}
+
+.FirstCon h1 span {
+  color: rgb(38, 78, 255);
+  font-size: 40px;
+  font-weight: 900;
+  line-height: 48px;
+}
+
+.FirstCon p {
+  font-size: 20px;
+  margin-bottom: 16px;
+}
+
+.FirstCon__img {
+  padding: 0.5rem 1rem;
+  border: 0px solid rgb(209, 217, 233);
+  border-radius: 8px;
+  width: 160px;
+  height: auto;
+}
+
+.SecondCon img {
+  width: 26vw;
+  margin-right: 34px;
+  margin-top: -3vw;
+}
+
+.brand-Con {
+  width: auto;
+  padding: 0.5rem 12rem;
+  -webkit-box-align: center;
+  align-items: center;
+}
+
+.brand-Con .brand-Con__brand-Texts {
+  display: flex;
+  flex-direction: column;
+  margin: 48px 0px;
+  -webkit-box-align: center;
+  align-items: center;
+}
+
+.brand-Con__brand-Texts .brand-Texts__1 {
+  font-size: 24px;
+  line-height: 36px;
+  font-weight: 600;
+  color: black;
+  margin: 0;
+}
+
+.brand-Con__brand-Texts .brand-Texts__2 {
+  font-size: 18px;
+  line-height: 26px;
+  font-weight: 500;
+  color: rgb(54, 55, 75);
+  margin: 0;
+}
+
+h2 {
+  position: absolute;
+  top: 80px;
+  left: 0;
+  right: 0;
+  text-align: center;
+  font-family: 'Ubuntu', sans-serif;
+  font-size: 50px;
+}
+
+.swiperImg {
+  padding: 12px 0px;
+  border: 1px solid rgb(231, 231, 240);
+  display: flex;
+  -webkit-box-align: center;
+  align-items: center;
+  -webkit-box-pack: center;
+  justify-content: center;
+  border-radius: 8px;
+}
+
+.product-Con {
+  background: linear-gradient(168deg, rgb(233, 244, 255) 0%, rgb(255, 255, 255) 100%);
+  padding-top: 2vw;
+  padding-bottom: 8vw;
+  position: relative;
+  margin-top: 12px;
+  width: auto;
+  padding: 0.5rem 12rem;
+  -webkit-box-align: center;
+  align-items: center;
+}
+
+.product-Con .product-Con__text-Con {
+  display: flex;
+  flex-direction: column;
+  margin: 48px 0px;
+  -webkit-box-align: center;
+  align-items: center;
+}
+
+.product-Con__text-Con .product-Texts__1 {
+  font-size: 24px;
+  line-height: 36px;
+  font-weight: 600;
+  color: black;
+  margin: 0;
+}
+
+.product-Con__text-Con .product-Texts__2 {
+  font-size: 18px;
+  line-height: 26px;
+  font-weight: 500;
+  color: rgb(54, 55, 75);
+  margin: 0;
+}
+
+.product-Con .product-Con__allProduct-Cards {
+  display: grid;
+  gap: 2vw;
+  margin-top: 4vw;
+  position: inherit;
+  z-index: 10;
+  grid-template-columns: repeat(auto-fit, minmax(500px, 1fr));
+}
+
+.product-Con__allProduct-Cards .allProduct-Cards__card-Ani {
+  /* will-change: transform;
+  transition: all 400ms cubic-bezier(0.03, 0.98, 0.52, 0.99) 0s;
+  transform: perspective(1000px) rotateX(0deg) rotateY(0deg) scale3d(1, 1, 1); */
+}
+
+.card-Con {
+  padding: 2rem;
+  z-index: 20;
+  position: relative;
+  border-radius: 0.75rem;
+  display: flex;
+  flex-direction: row;
+  -webkit-box-pack: center;
+  justify-content: center;
+
+}
+
+
+.card-img img{
+  width: 30%;
+  height: auto;
+  filter: grayscale(100%);
+}
+
+.card-Con .card-Con-Text {
+  display: flex;
+  flex-direction: column;
+  -webkit-box-pack: center;
+  justify-content: center;
+  padding-left: 1.5rem;
+}
+
+.card-Con-Text .card-Text-Head {
+  font-size: 20px;
+  line-height: 30px;
+  letter-spacing: 0.1rem;
+  font-weight: 600;
+}
+
+.card-Con-Text .card-Text-Line {
+  font-size: 16px;
+  line-height: 24px;
+  font-weight: 500;
+  color: rgb(54, 55, 75);
+}
